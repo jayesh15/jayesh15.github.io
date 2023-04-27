@@ -405,9 +405,10 @@ const name = document.getElementById('name');
 const description = document.getElementById('description');
 
 const text = [
-  'Jayesh Jain',
-  'Data Engineer |  Educator  | Academic trainer',
-  '5x Microsoft Azure Certified',
+  'I am Jayesh Jain',
+  'Cloud & Data Engineer ',
+  'Educator',
+  '7x Microsoft Azure Certified',
   'Microsoft Certified Trainer'
 ];
 
