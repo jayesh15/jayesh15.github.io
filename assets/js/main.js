@@ -399,3 +399,40 @@
 					});
 
 })(jQuery);
+
+
+const name = document.getElementById('name');
+const description = document.getElementById('description');
+
+const text = [
+  'Jayesh Jain',
+  'Data Engineer |  Educator  | Academic trainer',
+  '5x Microsoft Azure Certified',
+  'Microsoft Certified Trainer'
+];
+
+let index = 0;
+let textIndex = 0;
+let currentText = '';
+let letter = '';
+
+(function type() {
+  if (index === text.length) {
+    index = 0;
+  }
+
+  currentText = text[index];
+  letter = currentText.slice(0, ++textIndex);
+
+  name.textContent = letter;
+
+  if (letter.length === currentText.length) {
+    index++;
+    textIndex = 0;
+
+    setTimeout(type, 2000);
+  } else {
+    setTimeout(type, 50);
+  }
+})();
+

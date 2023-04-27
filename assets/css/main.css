@@ -33,6 +33,19 @@ body {
 	line-height: 1;
 }
 
+
+#name {
+	display: inline-block;
+  }
+  
+#description {
+	white-space: nowrap;
+	overflow: hidden;
+	width: 0;
+  }
+  
+
+
 ol, ul {
 	list-style: none;
 }
@@ -1158,7 +1171,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bgnewnew.jpg");
+			background-image: url("../../images/RQN7.gif");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
